@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Imagee = () => {
     return (
-        <div className='mt-10 flex justify-center  '>
+        <div className=' flex justify-center  '>
             <Image
                 src="/womann.svg"
                 alt="womanImg"
