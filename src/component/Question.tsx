@@ -6,7 +6,7 @@ type QuestionProps = {
 
 const Question = ({ questions }: QuestionProps) => {
     return (
-       <div className="flex items-center justify-between gap-1.5 text-[14px] cursor-pointer mb-4.75 mt-4.75">
+       <div className="flex items-center justify-between gap-1.5 text-[15px] cursor-pointer mb-4.75 mt-4.75">
             <p style={{ fontFamily: "Kumbh Sans, sans-serif", }} className= " hover:text-[#F47B56] w-full" 
             >{questions}</p>
             

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const FAQ = () => {
     return (
-        <div className='w-full max-w-full lg:w-1/2  mr-27.75'>
+        <div className='w-full max-w-full lg:w-1/2  mr-27'>
             <h1 className="text-[32px] mb-10.75 font-bold">FAQ</h1>
 
             <Question questions="How many team members can I invite?" />
@@ -15,14 +15,14 @@ const FAQ = () => {
 
                 <div className='flex justify-between mb-2.75'>
 
-                    <p className="font-bold text-[14px]">What is the maximum file upload size?</p>
+                    <p className="font-bold text-[15px]">What is the maximum file upload size?</p>
 
                     <Image src="/Arrow.svg" alt="arrow" width={10} height={6} style={{ transform: "rotate(180deg)" }} />
 
                 </div>
 
 
-                <p className='text-[#787887] text-[12px] w-full'>No more than 2GB. All files in your account must fit your allotted storage space.
+                <p className='text-[#787887] text-[13px] w-full'>No more than 2GB. All files in your account must fit your allotted storage space.
 
                 </p>
             </div>
